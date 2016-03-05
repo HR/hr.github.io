@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+---
+{% include header.html %}
+
+<section class="home__sections">
+	{% if site.paginate %}
+		{% for post in paginator.posts %}
+	        {% include blog-post.html %}
+	    {% endfor %}
+
+		{% if site.paginate %}{% include pagination.html%}{% endif %}
+	{% else %}
+		{% for post in site.posts %}
+			{% include blog-post.html %}
+		{% endfor %}
+	{% endif %}
+</section>
+
+{% include footer.html %}

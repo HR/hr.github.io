@@ -1,26 +1,66 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/)
+## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
 
-[Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
+![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
-## Getting Started
+This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+---
 
-## Bugs and Issues
+What has inside?
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-clean-blog/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/).
+- Gulp
+- Stylus
+- SVG
+- Travis
+- No JS
+- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
 
-## Creator
+## Setup
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+1. [Install Jekyll](http://jekyllrb.com)
+2. [Install NodeJS](https://nodejs.org/)
+3. [Install Bundler](http://bundler.io/)
+4. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+5. Edit `_config.yml` with your data.
+6. `bundle install`
+7. `npm install`
+8. `gulp`
+9. open in your browser: `http://localhost:3000`
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Settings
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+You have to fill some informations on `_config.yml` to customize your site.
 
-## Copyright and License
+```
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.
+url: http://YOURURL.github.io/indigo
+permalink: /:title/
+
+analytics: 'UA-MYANALYTICS'
+disqus: mydisqus
+facebook: myfacebook
+twitter: mytwitter
+instagram: myinstagram
+linkedin: mylinkedin
+youtube: myyoutube
+spotify: myspotify
+github: mygithub
+email: myemail@gmail.com
+```
+
+---
+
+## Contributions
+
+- [siddhantjain](https://github.com/siddhantjain)
+
+## Problems?
+
+Tell me on github or open a issue [GitHub Issue](https://github.com/sergiokopplin/indigo/issues/new).
+
+## License
+
+[MIT](http://kopplin.mit-license.org/) Licença © Sérgio Kopplin
