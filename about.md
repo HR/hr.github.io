@@ -14,18 +14,18 @@ img { width: 30%; height: auto; margin: 0 auto; display: block; }
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade</li>
-	<li>CSS (Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript/li>
+	<li>Javascript</li>
 	<li>NodeJS</li>
 	<li>ElectronJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
+	<li>AngularJS</li>
+	<li>Grunt/Gulp</li>
 	<li>Git</li>
 	<li>PHP</li>
 	<li>Python</li>
-	<li>TDD with jasmine</li>
+	<li>Jasmine TDD</li>
+	<li>HTML - Jade</li>
+	<li>CSS (Less)</li>
+	<li>CSS Frameworks (Bootstrap, Foundation)</li>
 </ul>
 
 <h2>Projects</h2>
