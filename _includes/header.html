@@ -1,4 +1,4 @@
-{% if page.title == "Home" or page.title == "Blog" %}{% assign x = true %}{% endif %}
+{% if page.title == "Home" %}{% assign x = true %}{% endif %}
 
 {% if x == true %}
     <header class="home__header">
@@ -8,12 +8,8 @@
         <h2>{{ site.bio }}</h2>
 
         <div class="home__header-social">
-            <a href="http://facebook.com/{{ site.facebook }}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a>
-            <a href="http://twitter.com/{{ site.twitter }}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
             <a href="https://github.com/{{ site.github }}" target="_blank"><svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
-            <a href="http://instagram.com/{{ site.instagram }}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a>
-            <a href="http://linkedin.com/{{ site.linkedin }}" target="_blank"><svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg></a>
-            <a href="http://youtube.com/{{ site.youtube }}" target="_blank"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a>
+            <a href="http://dribbble.com/{{ site.dribbble }}" target="_blank"><svg class="icon icon-dribbble"><use xlink:href="#icon-dribbble"></use></svg></a>
             <a href="mailto:{{ site.email }}" target="_blank"><svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
         </div>
     </header>
