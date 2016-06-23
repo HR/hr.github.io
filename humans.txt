@@ -2,8 +2,8 @@
 
 # TEAM
 
-	Your name - your home
+	Habib Rehman
 
 # TECHNOLOGY
 
-	HTML5, CSS3, JS, JEKYLL
+	HTML5, CSS3, JS, C++
