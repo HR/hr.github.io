@@ -3,7 +3,6 @@ title: About
 layout: page
 permalink: /about/index.html
 ---
-{% include header.html %}
 <style>
 img { width: 30%; height: auto; margin: 0 auto; display: block; }
 </style>
@@ -35,4 +34,3 @@ img { width: 30%; height: auto; margin: 0 auto; display: block; }
 	<li><a href="https://github.com/HR/CryptoSync">CryptoSync</a></li>
 	<li><a href="https://github.com/HR/Pictroid">Pictroid</a></li>
 </ul>
-{% include footer.html %}

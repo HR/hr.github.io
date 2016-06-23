@@ -1,5 +1,5 @@
 name: Habib Rehman
-bio: 'A Polymath.'
+bio: 'Design&Develop. Solve problems.'
 picture: 'assets/images/profile.png'
 
 url: https://HR.github.io
@@ -8,7 +8,7 @@ permalink: /:title/
 
 github: HR
 dribbble: HR
-email: hrosdev@gmail.com
+email: Habib.r@outlook.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
