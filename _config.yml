@@ -8,7 +8,7 @@ permalink: /:title/
 
 github: HR
 dribbble: HR
-email: Habib.r@outlook.com
+email: Habib@Rehman.email
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 
