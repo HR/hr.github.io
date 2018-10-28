@@ -1,9 +1,0 @@
-# humanstxt.org/
-
-# TEAM
-
-	Habib Rehman
-
-# TECHNOLOGY
-
-	HTML5, CSS3, JS, C++
