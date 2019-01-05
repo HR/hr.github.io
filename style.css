@@ -17,6 +17,8 @@ body {
 h1 {
     font-family: 'Google Sans', sans-serif !important;
     font-size: 5rem;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
 }
 
 h2 {
